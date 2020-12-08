@@ -43,10 +43,6 @@ img {
         z-index: 0;
         transition: .3s;
     }
-    &__img:hover{
-        cursor: pointer;
-        right: 10px;
-    }
     &__item {
         background-color: #eaf1fb;
         z-index: 2;

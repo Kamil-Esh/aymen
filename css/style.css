@@ -53,11 +53,6 @@ img {
   transition: .3s;
 }
 
-.hero__img:hover {
-  cursor: pointer;
-  right: 10px;
-}
-
 .hero__item {
   background-color: #eaf1fb;
   z-index: 2;
