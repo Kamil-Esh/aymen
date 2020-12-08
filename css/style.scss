@@ -3,10 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -14,18 +16,23 @@ body {
     font-family: 'Comfortaa', cursive;
 
 }
-.animate__animated{
+
+.animate__animated {
     --animate-duration: 1500ms;
 }
+
 img {
     max-width: 100%;
 }
-.filter{
+
+.filter {
     background: url("../images/unnamed_1.jpg") no-repeat fixed center/cover;
 }
-.filter-sec{
-    background:url("../images/IMG_5368.jpg") no-repeat fixed center/cover;
+
+.filter-sec {
+    background: url("../images/IMG_5368.jpg") no-repeat fixed center/cover;
 }
+
 .hero {
     min-height: 100vh;
     background: linear-gradient(90deg, #2669fe 17%, #0a2f80 65%, #002168 100%);
@@ -37,8 +44,9 @@ img {
         color: white;
         font-family: 'Varela Round', sans-serif;
         font-weight: 700;
-        
+
     }
+
     &__img {
         position: absolute;
         right: 0;
@@ -46,21 +54,25 @@ img {
         z-index: 0;
         transition: .3s;
     }
+
     &__item {
         background-color: #eaf1fb;
         z-index: 2;
         position: absolute;
         width: 100%;
         bottom: 0;
+
         &_title {
             color: blue;
             text-align: right;
             font-size: 40px;
         }
     }
-    &__menu {  
+
+    &__menu {
         margin-top: 50px;
         margin-bottom: 30px;
+
         &_list {
             padding: 15px 40px;
             background-color: #2063f2;
@@ -70,9 +82,11 @@ img {
             border: 1px solid #2063f2;
             white-space: nowrap;
         }
+
         &_list:not(:last-child) {
             margin-right: 15px;
         }
+
         &_list:hover {
             background-color: white;
             color: #2063f2;
@@ -80,8 +94,10 @@ img {
             border: 1px solid #2063f2;
         }
     }
+
     &__social {
         padding: 15px 0 20px;
+
         p {
             display: inline-block;
             font-weight: 700;
@@ -89,62 +105,74 @@ img {
         }
     }
 }
+
 .about {
     position: relative;
     z-index: 50;
     padding: 100px 0;
+
     &__item {
         margin-right: -30px;
         border: 13px solid #eaf1fb;
         border-right: none;
         padding: 25px 50px 25px 25px;
     }
+
     &__title {
         margin-bottom: 20px;
         font-weight: 700;
     }
+
     &__desc {
         font-size: 17px;
     }
 }
+
 .biography {
     padding: 50px 0;
+
     &__desc {
         font-size: 19px;
         color: white;
         font-weight: 500;
         box-shadow: 0 0 0 1px white;
         padding: 20px;
-        background:rgba(0,0,0,0.4);
+        background: rgba(0, 0, 0, 0.4);
     }
 }
+
 .quote {
     background-blend-mode: darken;
-    background: rgba(0,0,0,0.1) url('../images/IMG_5028.jpg') no-repeat fixed center/cover;
+    background: rgba(0, 0, 0, 0.1) url('../images/IMG_5028.jpg') no-repeat fixed center/cover;
     color: white;
     padding: 50px 0 40px;
+
     &__title {
         padding-bottom: 20px;
         font-size: 70px;
     }
+
     &__desc {
         font-size: 25px;
         margin-bottom: 25px;
     }
+
     &__subtitle {
         font-size: 20px;
     }
+
     &__subhead {
         padding: 40px 0;
         font-size: 40px;
     }
 }
+
 .contacts {
     background: #eaf1fb;
     display: flex;
     position: relative;
-    &__item {
-    }
+
+    &__item {}
 
     &__title {
         font-weight: 700;
@@ -155,11 +183,12 @@ img {
         margin-bottom: 25px;
     }
 
-    &__address {
-    }
+    &__address {}
+
     &__social {
         margin-top: 20px;
         padding-bottom: 50px;
+
         p {
             display: inline-block;
             font-weight: 700;
@@ -167,9 +196,11 @@ img {
         }
     }
 }
+
 .gallery {
     padding: 60px 0 30px;
-    background: rgba(0,0,0,0.1) url('../images/IMG_5369.jpg') no-repeat fixed center/cover;
+    background: rgba(0, 0, 0, 0.1) url('../images/IMG_5369.jpg') no-repeat fixed center/cover;
+
     &__title {
         padding-bottom: 30px;
     }
@@ -178,16 +209,28 @@ img {
         margin-bottom: 20px;
         height: 300px;
         width: 100%;
+        position: relative;
         img {
             height: 100%;
             width: 100%;
             object-fit: contain;
         }
     }
+    &__play {
+        border-style: solid;
+            border-width: 25px 0 25px 50px;
+            border-color: transparent transparent transparent #007bff;
+            position: absolute;
+            right: 50%;
+            bottom: 50%;
+            transform: translate(50%,50%);
+        }
 }
+
 .footer {
     background: #eaf1fb;
     padding: 5px 0;
+
     p {
         margin-bottom: 0;
     }
