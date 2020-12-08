@@ -1,6 +1,7 @@
 @media (max-width: 1500px) {
     .hero__img {
         width: 55%;
+        bottom: 10px;
     }
     .hero__title {
         font-size: 100px;
