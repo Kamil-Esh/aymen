@@ -1,10 +1,11 @@
 @media (max-width: 1500px) {
     .hero__img {
-        width: 55%;
-        bottom: 10px;
+        width: 50%;
+        bottom: -10%;
     }
     .hero__title {
         font-size: 100px;
+        padding-top: 10%;
     }
 }
 @media (max-width: 1200px) {
