@@ -58,10 +58,8 @@ img {
     &__item {
         background-color: #eaf1fb;
         z-index: 2;
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-
+        position: relative;
+        margin-top: 253px;
         &_title {
             color: blue;
             text-align: right;
